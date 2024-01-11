@@ -1,67 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-}
-html,
-body {
-  height: 100%;
-  width: 100%;
-  background-color: #87ceeb;
-}
-nav,
-.nav-links {
-  display: flex;
-}
-.logo {
-  cursor: default;
-}
-nav {
-  align-items: center;
-  justify-content: space-around;
-  height: 17vh;
-}
-.nav-links {
-  gap: 3rem;
-}
-.nav-links li {
-  cursor: pointer;
-  list-style: none;
-}
-section {
-  display: flex;
-  padding-top: 4vh;
-  height: 96vh;
-  min-height: fit-content;
-  margin: 0 10rem;
-}
-#profile {
-  justify-content: center;
-  align-items: center;
-}
-.first-img-div {
-  height: 400px;
-  width: 400px;
-  display: flex;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 0 auto;
-}
-.intro-box {
-  min-height: fit-content;
-  margin: 0 auto;
-}
-.btn-container {
-  display: flex;
-  gap: 1rem;
-  padding: auto;
-}
-.btn-container button {
-  padding: 1rem 1.5rem;
-  border-radius: 1.5rem;
-}
-.social-icons {
-  font-size: 2.5rem;
+@media screen and (max-width: 600px) {
+  .desktop-nav {
+    display: none;
+  }
+  .hamburger-nav {
+    display: flex;
+  }
+  #profile {
+    margin: 0 3.5rem;
+  }
+  .first-img-div {
+    height: 42vh;
+  }
 }

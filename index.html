@@ -18,7 +18,7 @@
   </head>
   <body>
     <nav class="desktop-nav">
-      <h1 class="logo">Bedi Gupta</h1>
+      <h1 class="logo text">Bedi Gupta</h1>
       <div class="nav-links">
         <li onclick="location.href='#services'">Services</li>
         <li onclick="loaction.href='https://bedigupta.hashnode.dev/'">Blogs</li>
@@ -28,17 +28,39 @@
         <li onclick="location.href='#about'">About</li>
       </div>
     </nav>
+    <nav class="hamburger-nav">
+      <h2 class="text">Bedi Gupta</h2>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li onclick="location.href='#services'">Services</li>
+          <li onclick="loaction.href='https://bedigupta.hashnode.dev/'">
+            Blogs
+          </li>
+          <li
+            onclick="loaction.href='https://bedigupta.hashnode.dev/newsletter'"
+          >
+            Newsletter
+          </li>
+          <li onclick="location.href='#about'">About</li>
+        </div>
+      </div>
+    </nav>
     <section id="profile">
       <div class="first-img-div">
         <img src="./assets/Profile Pic.jpg" alt="Bedi Gupta Picture" />
       </div>
       <div class="intro-box">
-        <p class="small-para">Hello I 'm</p>
-        <h2 class="large-font">Bedi Gupta</h2>
-        <h4 class="medium-font">Full Stack Developer</h4>
+        <p class="small-para text">Hello I 'm</p>
+        <h2 class="large-font text">Bedi Gupta</h2>
+        <h4 class="medium-font text">Full Stack Developer</h4>
         <div class="btn-container">
-          <button>Donwload CV</button>
-          <button>Contact Info</button>
+          <button id="download-btn">Donwload CV</button>
+          <button id="contact-btn">Contact Info</button>
         </div>
         <div class="social-icons">
           <i class="ri-linkedin-box-fill"></i>
