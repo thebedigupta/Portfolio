@@ -5,6 +5,10 @@
   .hamburger-nav {
     display: flex;
   }
+  .first-img-div img {
+    object-fit: cover;
+    object-position: center;
+  }
   nav {
     align-items: none;
     justify-content: space-between;
@@ -12,10 +16,15 @@
     height: 15vh;
   }
   #profile {
-    margin: 0 2rem;
+    margin: 0 2.5rem;
     padding-top: 0;
   }
   .first-img-div {
     height: 42vh;
+  }
+  .first-img-div img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
   }
 }
