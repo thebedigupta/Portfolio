@@ -5,8 +5,14 @@
   .hamburger-nav {
     display: flex;
   }
+  nav {
+    align-items: none;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 15vh;
+  }
   #profile {
-    margin: 0 3.5rem;
+    margin: 0 2rem;
   }
   .first-img-div {
     height: 42vh;
