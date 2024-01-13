@@ -10,6 +10,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: #87ceeb;
+  scroll-behavior: smooth;
 }
 nav,
 .nav-links {
@@ -52,7 +53,6 @@ section {
   justify-content: center;
   border-radius: 50%;
   overflow: hidden;
-  margin: auto;
 }
 .first-img-div img {
   border-radius: 50%;
@@ -90,6 +90,9 @@ section {
   padding: 1rem 1.5rem;
   border-radius: 1.5rem;
 }
+#about {
+  position: relative;
+}
 .social-icons {
   font-size: 2.5rem;
 }
@@ -106,12 +109,15 @@ section {
 p,
 h2,
 h4 {
-  margin: 0.3rem;
+  margin: 0.4rem;
 }
 #download-btn:hover {
   background-color: #000;
   color: #fff;
 }
+
+/* Hamburger-Menu */
+
 .hamburger-nav {
   display: none;
 }
@@ -206,5 +212,76 @@ h4 {
 .hamburger-icon span:first-child {
   transform: none;
 }
+.upper-text {
+  text-align: center;
+}
+.upper-text-para,
+.upper-text-heading {
+  cursor: default;
+}
+.upper-text-para {
+  font-size: 1rem;
+}
+.upper-text-heading {
+  font-size: 2.5rem;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+}
+.about-container {
+  display: flex;
+  gap: 4rem;
+  height: 80%;
+}
+.standing-img {
+  margin: auto 0;
+}
+.second-img-div {
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
 
-/*  */
+}
+.about-section {
+  /* background-color: maroon; */
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.second-img-div img {
+  border-radius: 3rem;
+  object-fit: cover;
+  max-height: 100%;
+  max-width: 100%;
+}
+.edu-exp-box {
+  /* background-color: red; */
+  display: flex;
+  gap: 1vw;
+}
+.edu-box {
+  padding: 1rem;
+  border: 2px solid #000;
+  border-radius: 3vw;
+  text-align: center;
+  flex: 1;
+}
+.exp-box {
+  padding: 1rem;
+  border: 2px solid #000;
+  border-radius: 3vw;
+  text-align: center;
+  flex: 1;
+}
+.edu-box i {
+  font-size: 1.5rem;
+}
+.exp-box i {
+  font-size: 1.5rem;
+}

@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .desktop-nav {
     display: none;
   }
@@ -12,11 +12,38 @@
     height: 12vh;
   }
   #profile {
-    padding-top: 0;
     margin: 0 2rem;
   }
   .first-img-div {
+    overflow: hidden;
     height: 42vh;
+  }
+  #about {
+    padding-top: 4vh;
+  }
+  .about-container {
+    flex-wrap: wrap;
+  }
+  section {
+    margin: 0 auto;
+  }
+  .second-img-div {
+    height: 24vh;
+  }
+  .standing-img {
+    margin: 0 auto;
+  }
+  .about-container {
+    gap: 2rem;
+  }
+  .upper-text {
+    margin-bottom: 1rem;
+  }
+  .brief-text-about-me {
+    padding: 0.7rem;
+  }
+  .brief-text-about-me p {
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 1200px) {
