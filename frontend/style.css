@@ -245,7 +245,6 @@ h4 {
   align-items: center;
   justify-content: center;
   border-radius: 3rem;
-
 }
 .about-section {
   /* background-color: maroon; */
@@ -262,6 +261,7 @@ h4 {
 }
 .edu-exp-box {
   /* background-color: red; */
+  flex-wrap: wrap;
   display: flex;
   gap: 1vw;
 }
