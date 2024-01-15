@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .desktop-nav {
     display: none;
   }
@@ -20,6 +20,7 @@
   }
   #about {
     padding-top: 4vh;
+    margin: 0 1.5rem;
   }
   .about-container {
     flex-wrap: wrap;
