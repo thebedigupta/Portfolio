@@ -3,113 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./frontend/style.css" />
-    <link rel="stylesheet" href="./frontend/mediaqueries.css" />
     <link
       rel="shortcut icon"
       href="./assets/apple-touch-icon.png"
       type="image/x-icon"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./frontend/style.css" />
+    <link rel="stylesheet" href="./frontend/mediaqueries.css" />
     <title>Bedi Gupta | Developer | Programmer</title>
   </head>
   <body>
-    <nav class="desktop-nav">
-      <h1 class="logo text">Bedi Gupta</h1>
-      <div class="nav-links">
-        <li onclick="location.href='#services'">Services</li>
-        <li onclick="location.href='https://bedigupta.hashnode.dev/'">Blogs</li>
-        <li onclick="location.href='https://bedigupta.hashnode.dev/newsletter'">
-          Newsletter
-        </li>
-        <li onclick="location.href='#about'">About</li>
+    <nav id="desktop-nav">
+      <h2 class="logo">Bedi Gupta</h2>
+      <div class="desktop-links">
+        <li>Blogs</li>
+        <li>Services</li>
+        <li>Newsletter</li>
+        <li>About</li>
       </div>
     </nav>
     <nav class="hamburger-nav">
-      <h2 class="text">Bedi Gupta</h2>
+      <h2 class="logo">Bedi Gupta</h2>
       <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+        <div class="hamburger-icon">
           <span></span>
           <span></span>
           <span></span>
         </div>
         <div class="menu-links">
-          <li onclick="location.href='#services'">Services</li>
-          <li onclick="location.href='https://bedigupta.hashnode.dev/'">
-            Blogs
-          </li>
-          <li
-            onclick="location.href='https://bedigupta.hashnode.dev/newsletter'"
-          >
-            Newsletter
-          </li>
-          <li onclick="location.href='#about'">About</li>
+          <li>Blogs</li>
+          <li>Services</li>
+          <li>Newsletter</li>
+          <li>About</li>
         </div>
       </div>
     </nav>
-    <section id="profile">
-      <div class="first-img-div">
-        <img src="./assets/Profile Pic.jpg" alt="Bedi Gupta Picture" />
-      </div>
-      <div class="intro-box">
-        <p class="small-para text">Hello I 'm</p>
-        <h2 class="large-font text">Bedi Gupta</h2>
-        <h4 class="medium-font text">Full Stack Developer</h4>
-        <div class="btn-container">
-          <button id="download-btn">Donwload CV</button>
-          <button id="contact-btn">Contact Info</button>
-        </div>
-        <div class="social-icons">
-          <i class="ri-linkedin-box-fill"></i>
-          <i class="ri-github-fill"></i>
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <div class="upper-text">
-        <p class="upper-text-para">Get To Know</p>
-        <h1 class="upper-text-heading">About Me</h1>
-      </div>
-      <div class="about-container">
-        <div class="standing-img">
-          <div class="second-img-div">
-            <img
-              src="./assets/Second Image.png"
-              alt="Bedi Gupta About Page"
-              class="icon"
-            />
+    <div class="wrapper">
+      <section id="profile">
+
+          <div class="pic-box">
+            <img src="./assets/Profile Pic.jpg" alt="Bedi Gupta">
           </div>
-        </div>
-        <div class="about-section">
-          <div class="edu-exp-box">
-            <div class="edu-box">
-              <i class="ri-pencil-ruler-2-fill"></i>
-              <h2>Education</h2>
-              <p>BCA Freshman Year</p>
+          <div class="intro-detail-box">
+            <p>Hello I'm</p>
+            <h2 class="bold-font">Bedi Gupta</h2>
+            <h3>Full Stack Developer</h3>
+            <div class="btn-container">
+              <button class="hover-black-and-white">Download CV</button>
+              <button>Contact Us</button>
             </div>
-            <div class="exp-box">
-              <i class="ri-award-fill"></i>
-              <h2>Experience</h2>
-              <p>Frontend Development</p>
-              <p>8+ Months</p>
+            <div class="icon-box">
+
             </div>
           </div>
-          <div class="brief-text-about-me">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at
-              est error totam sit mollitia placeat quasi? Consectetur dolores
-              molestiae quibusdam reprehenderit ratione quae alias esse vero
-              repudiandae. Quasi pariatur iusto provident consectetur dolorem
-              aut repellendus tenetur atque, illo incidunt labore nemo earum
-              vero aspernatur
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script src="./frontend/script.js"></script>
+
+      </section>
+    </div>
   </body>
 </html>
